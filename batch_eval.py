@@ -19,7 +19,7 @@ from mmaudio.model.utils.features_utils import FeaturesUtils
 torch.backends.cuda.matmul.allow_tf32 = True
 torch.backends.cudnn.allow_tf32 = True
 
-local_rank = int(os.environ['LOCAL_RANK'])
+local_rank = 0 # int(os.environ['LOCAL_RANK'])
 world_size = int(os.environ['WORLD_SIZE'])
 log = logging.getLogger()
 
