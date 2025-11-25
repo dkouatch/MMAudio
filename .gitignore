@@ -2,15 +2,15 @@ run_*.sh
 log/
 saves
 saves/
-# weights/
-# weights
+weights/
+weights
 output/
 output
 pretrained/
 workspace
 workspace/
-# ext_weights/
-# ext_weights
+ext_weights/
+ext_weights
 .checkpoints/
 .vscode/
 training/example_output/
